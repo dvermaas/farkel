@@ -1,0 +1,17 @@
+[project]
+name = "farkel"
+version = "0.1.0"
+description = "Farkel is played using six-sided dice, and is playable in every respectable tavern."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "pytest>=8.3.4",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.6",
+]
